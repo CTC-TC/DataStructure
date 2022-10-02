@@ -38,56 +38,39 @@ bool shipping(vector<vector<char>> input, string result, int X, int Y, int size,
 	{
 		if (X < size && Y < size && input[Y][X] == '1')
 		{
-			if (X <= size - 1 && (path.length() == 0 || path[path.length() - 1] != 'W'))
+			if (!shipping(input, path + 'E', X + 1, Y, size, count + 1))
 			{
-				if (!shipping(input, path + 'E', X + 1, Y, size, count + 1))
+				if (!shipping(input, path + 'S', X, Y + 1, size, count + 1))
 				{
-					if (Y <= size - 1 && (path.length() == 0 || path[path.length() - 1] != 'N'))
+					if (!shipping(input, path + 'W', X - 1, Y, size, count + 1))
 					{
-						if (!shipping(input, path + 'S', X, Y + 1, size, count + 1))
+						if (!shipping(input, path + 'N', X, Y - 1, size, count + 1))
 						{
-							if (X >= 1 && (path.length() == 0 || path[path.length() - 1] != 'E'))
-							{
-								if (!shipping(input, path + 'W', X - 1, Y, size, count + 1))
-								{
-									if (Y >= 1 && (path.length() == 0 || path[path.length() - 1] != 'S'))
-									{
-										return (shipping(input, path + 'N', X, Y - 1, size, count + 1));
-									}
-									else
-									{
-										return false;
-									}
-								}
-								else
-								{
-									return true;
-								}
-							}
-							else
-							{
-								return false;
-							}
-						}
-						else
-						{
-							return true;
+							return false;
 						}
 					}
-					else
-					{
-						return false;
-					}
+					return false;
 				}
-				else
-				{
-					return true;
-				}
+
 			}
-			else
+
+			/*if (path.empty() || path[path.length() - 1] != 'W')
 			{
-				return false;
+				shipping(input, path + 'E', X + 1, Y, size, count + 1);
 			}
+			else if (Y <= size - 1 && (path.length() == 0 || path[path.length() - 1] != 'N'))
+			{
+				shipping(input, path + 'S', X, Y + 1, size, count + 1);
+			}
+			else if (X >= 1 && (path.length() == 0 || path[path.length() - 1] != 'E'))
+			{
+				shipping(input, path + 'W', X - 1, Y, size, count + 1);
+			}
+			else if (Y >= 1 && (path.length() == 0 || path[path.length() - 1] != 'S'))
+			{
+				(shipping(input, path + 'N', X, Y - 1, size, count + 1));
+			}*/
+
 		}
 		else
 		{

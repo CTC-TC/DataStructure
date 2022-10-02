@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\DataStructure\HW1_1(Shortest path of Cave) v2.0\HW1_1\Source.cpp(167,20): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW1_1(Shortest path of Cave) v2.0\HW1_1\Source.cpp(192,20): warning C4018: '<': signed/unsigned mismatch
+  HW1_1.vcxproj -> D:\DataStructure\HW1_1(Shortest path of Cave) v2.0\HW1_1\Debug\HW1_1.exe
