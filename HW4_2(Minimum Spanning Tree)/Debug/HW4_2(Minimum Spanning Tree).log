@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\DataStructure\HW4_2(Minimum Spanning Tree)\Source.cpp(7,20): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW4_2(Minimum Spanning Tree)\Source.cpp(9,41): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW4_2(Minimum Spanning Tree)\Source.cpp(45,26): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW4_2(Minimum Spanning Tree)\Source.cpp(47,29): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW4_2(Minimum Spanning Tree)\Source.cpp(70,30): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW4_2(Minimum Spanning Tree)\Source.cpp(80,20): warning C4018: '<': signed/unsigned mismatch
+  HW4_2(Minimum Spanning Tree).vcxproj -> D:\DataStructure\HW4_2(Minimum Spanning Tree)\Debug\HW4_2(Minimum Spanning Tree).exe

@@ -1,0 +1,11 @@
+﻿  Source.cpp
+D:\DataStructure\HW3_2(sort)\Source.cpp(16,31): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(35,26): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(37,29): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(46,24): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(56,20): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(69,22): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(77,20): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(84,22): warning C4018: '<': signed/unsigned mismatch
+D:\DataStructure\HW3_2(sort)\Source.cpp(91,20): warning C4018: '<': signed/unsigned mismatch
+  HW3_2(sort).vcxproj -> D:\DataStructure\HW3_2(sort)\Debug\HW3_2(sort).exe

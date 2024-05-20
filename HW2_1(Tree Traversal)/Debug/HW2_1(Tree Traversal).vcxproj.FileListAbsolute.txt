@@ -1,1 +1,2 @@
 C:\Users\CDJ\source\repos\HW2_1(Tree Traversal)\Debug\HW2_1(Tree Traversal).exe
+D:\University\DataStructure\HW2_1(Tree Traversal)\Debug\HW2_1(Tree Traversal).exe

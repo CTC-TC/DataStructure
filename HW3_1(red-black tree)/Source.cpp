@@ -176,7 +176,7 @@ void insert(int value, node*& tree, node* parent)
 {
 	if (tree == nullptr)
 	{
-		node* tmp = new node();
+		node* tmp = new node;
 		tmp->value = value;
 		tmp->parent = parent;
 		tree = tmp;
